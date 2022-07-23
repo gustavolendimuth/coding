@@ -2,13 +2,13 @@
 
 ### Coding
 
-##### [[Redux]]
+##### [Redux](./Redux.md)
 	Check list para criar projeto com Redux
 
-##### [[Sanity]]
+##### [Sanity](Sanity)
 	Como criar e fazer deploy usando Sanity
 
-##### [[Netlify]]
+##### [Netlify](Netlify)
 	Como fazer deploy usando o Netlify
 
 ##### [[Testing Playground URL]]
