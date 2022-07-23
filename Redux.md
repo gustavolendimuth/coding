@@ -124,12 +124,12 @@ export default connect(mapStateToProps, mapDispatchToProps)(Component)
 
 ## Entendendo o infograma de uma store
 
-![[./images/store-info.png]]
+![Infograma de store](./images/store.png)
 
 
 ### Análise do passo a passo
 
-![[./images/store.png]]
+![Store](./images/store.png)
 
 ## Reducer
 
@@ -188,4 +188,4 @@ export const newAction = (state) => ({ type: 'NEW_ACTION', state });
 ## Diferentes formas de usar o dispatch
 - https://react-redux.js.org/using-react-redux/connect-mapdispatch
 
-![[Sanity]]
+![Sanity Note](Sanity.md)
