@@ -188,4 +188,4 @@ export const newAction = (state) => ({ type: 'NEW_ACTION', state });
 ## Diferentes formas de usar o dispatch
 - https://react-redux.js.org/using-react-redux/connect-mapdispatch
 
-[Sanity Note](./Sanity.md)
+![Sanity Note](./Sanity.md)
