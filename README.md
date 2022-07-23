@@ -11,8 +11,8 @@
 ##### [Netlify](./Netlify.md)
 	Como fazer deploy usando o Netlify
 
-##### [Testing Playground URL](./Testing Playground URL.md)
+##### [Testing Playground URL](./Testing-Playground-URL.md)
 	Como habilitar visualização de erros do React no navegador
 
-##### [DigitalOcean](./DigitalOcean Deploy.md)
+##### [DigitalOcean Deploy](¨./DigitalOcean Deploy.md")
 	Como fazer deploy para uma VM do Digital Ocean
