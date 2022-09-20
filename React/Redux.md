@@ -67,9 +67,9 @@ export default rootReducer;
 ```
 
 ### _No arquivo store/index.js:_
-- [ ] importar `rootReducer` e usá-lo na criação da `store`
-- [ ] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
-- [ ] exportar a `store`
+- [x] importar `rootReducer` e usá-lo na criação da `store`
+- [x] configurar o [Redux DevTools](https://github.com/reduxjs/redux-devtools)
+- [x] exportar a `store`
 
 ```javascript
 import { createStore } from 'redux';
@@ -85,7 +85,7 @@ export default store;
 ```
 
 ### _No arquivo App.js:_
-- [ ] importar a `store`
+- [x] importar a `store`
 - [ ] definir o Provider, `<Provider store={ store }>`, para fornecer os estados a todos os componentes encapsulados em `<App />`.
 
 ### _Na pasta actions:_
@@ -124,12 +124,12 @@ export default connect(mapStateToProps, mapDispatchToProps)(Component)
 
 ## Entendendo o infograma de uma store
 
-![Infograma de store](./images/store.png)
+![Infograma de store](store.png)
 
 
 ### Análise do passo a passo
 
-![Store](./images/store.png)
+![Store](store.png)
 
 ## Reducer
 

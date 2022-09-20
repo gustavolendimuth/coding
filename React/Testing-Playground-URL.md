@@ -1,4 +1,4 @@
-# Função nativa para ver erro no navegador
+# Função para ver no navegador
 
 ```javascript 
 console.log(screen.logTestingPlaygroundURL());
