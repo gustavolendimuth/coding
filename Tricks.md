@@ -1,3 +1,4 @@
+# Geral
 ## Console.log no meio de uma arrow function
 
 If you want to get a better sense of what's going on, you can log out the `listItem` in the filter like this:
@@ -18,3 +19,11 @@ ingredientsData[recipeId]?.some((ingredient) => ingredient === ingredientName(in
 
 http://regex101.com
 http://regexone.com
+
+# React
+
+## Testing Playground
+
+```javascript 
+console.log(screen.logTestingPlaygroundURL());
+```

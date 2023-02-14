@@ -11,5 +11,36 @@ client.fetch(query, params).then((bikes) => {
 })
 ```
 
+## Querys
+
+```javascript
+*[_type == "products" ].categories[]._ref
+
+*[_type == "categories" && _id in *[_type == "products" ].categories[]._ref && isMainCategory]
+ 
+array::unique(*[_type == "products" ].categories[]._ref)
+
+*[_type == "categories" && _id in array::unique(*[_type == "products" ].categories[]._ref) && isMainCategory] {
+      name, _id, icon, slug,
+      "subCategories": *[_type == "products" && references(^._id)]{
+        ...(categories[1]->{name, slug, _id, icon})
+      }
+}
+
+*[_type == "categories" && isMainCategory] {
+      name, _id, icon, slug,
+      "subCategories": *[_type == "products" && references(^._id)]{
+        ...(categories[1]->{name, slug, _id, icon})
+      }
+}
+
+{
+  "categories": array::unique(*[_type == "products" ].categories[]._ref)
+}
+{
+  "results": *[_type == "categories" && _id in ^.categories && isMainCategory],
+}.result
+```
+
 https://www.sanity.io/docs/js-client
 

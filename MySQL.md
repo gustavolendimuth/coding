@@ -252,14 +252,14 @@ SELECT first_name FROM sakila.actor
 GROUP BY first_name;
 ```
 
-![mysql-group-having](mysql-group-having.png)
+![mysql-group-having](./images/mysql-group-having.png)
 
 ```sql
 SELECT first_name, COUNT(*) FROM sakila.actor
 GROUP BY first_name;
 ```
 
-![mysql-group-by-count](mysql-group-by-count.png)
+![mysql-group-by-count](./images/mysql-group-by-count.png)
 
 ```sql
 -- Média de duração de filmes agrupados por classificação indicativa
@@ -283,19 +283,19 @@ FROM sakila.film
 GROUP by rating;
 ```
 
-![mysql-group-by-avg](mysql-group-by-avg.png)
+![mysql-group-by-avg](./images/mysql-group-by-avg.png)
 
 Média de duração dos filmes por classificação indicativa
 
-![mysql-group-by-min.png](mysql-group-by-min.png)
+![mysql-group-by-min.png](./images/mysql-group-by-min.png)
 
 Valores mínimos de substituição dos filmes por classificação indicativa
 
-![mysql-group-by-max.png](mysql-group-by-min.png)
+![mysql-group-by-max.png](./images/mysql-group-by-min.png)
 
 Valores máximos de substituição dos filmes por classificação indicativa
 
-![mysql-group-by-sum.png](mysql-group-by-sum.png)
+![mysql-group-by-sum.png](./images/mysql-group-by-sum.png)
 
 Soma total do custo de substituição dos filmes por classificação indicativa
 
@@ -324,3 +324,5 @@ GROUP BY first_name
 HAVING 'nomes cadastrados' > 2;
 ```
 
+
+## Como utilizar o `LEFT JOIN` e o `RIGHT JOIN`
